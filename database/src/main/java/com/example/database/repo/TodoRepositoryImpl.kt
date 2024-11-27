@@ -1,6 +1,6 @@
 package com.example.database.repo
 
-import com.example.database.TodoEntity
+import com.example.database.entity.TodoEntity
 import com.example.database.database.TodoDao
 import kotlinx.coroutines.flow.Flow
 import javax.inject.Inject

@@ -1,6 +1,6 @@
 package com.sample.todolist.domain.usecase
 
-import com.example.database.TodoEntity
+import com.example.database.entity.TodoEntity
 import com.example.database.repo.TodoRepository
 import javax.inject.Inject
 
