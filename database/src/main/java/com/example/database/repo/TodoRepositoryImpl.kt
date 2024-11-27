@@ -1,7 +1,7 @@
-package com.sample.todolist.data.repo
+package com.example.database.repo
 
-import com.sample.todolist.data.TodoEntity
-import com.sample.todolist.data.database.TodoDao
+import com.example.database.TodoEntity
+import com.example.database.database.TodoDao
 import kotlinx.coroutines.flow.Flow
 import javax.inject.Inject
 

@@ -1,6 +1,6 @@
-package com.sample.todolist.data.repo
+package com.example.database.repo
 
-import com.sample.todolist.data.TodoEntity
+import com.example.database.TodoEntity
 import kotlinx.coroutines.flow.Flow
 
 interface TodoRepository {

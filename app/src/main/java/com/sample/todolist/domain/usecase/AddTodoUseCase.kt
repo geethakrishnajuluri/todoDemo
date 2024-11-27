@@ -1,7 +1,7 @@
 package com.sample.todolist.domain.usecase
 
-import com.sample.todolist.data.TodoEntity
-import com.sample.todolist.data.repo.TodoRepository
+import com.example.database.TodoEntity
+import com.example.database.repo.TodoRepository
 import javax.inject.Inject
 
 class AddTodoUseCase @Inject constructor(

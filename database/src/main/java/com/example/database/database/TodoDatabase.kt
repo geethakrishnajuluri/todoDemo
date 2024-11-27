@@ -1,9 +1,9 @@
-package com.sample.todolist.data.database
+package com.example.database.database
 
 
 import androidx.room.Database
 import androidx.room.RoomDatabase
-import com.sample.todolist.data.TodoEntity
+import com.example.database.TodoEntity
 
 // Entity class is TodoItem and DAO is TodoDao
 @Database(entities = [TodoEntity::class], version = 1, exportSchema = false)

@@ -53,6 +53,8 @@ android {
 
 dependencies {
 
+    implementation(project(":database"))
+
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.lifecycle.runtime.ktx)
     implementation(libs.androidx.activity.compose)
@@ -71,10 +73,6 @@ dependencies {
     debugImplementation(libs.androidx.ui.test.manifest)
 
 
-    // Room
-    implementation(libs.room.runtime)
-    kapt(libs.room.compiler)
-    implementation(libs.room.ktx)
 
     // Coroutines
     implementation(libs.coroutines.android)
@@ -88,5 +86,6 @@ dependencies {
     testImplementation(libs.kotlinx.coroutines.test)
     testImplementation(libs.junit)
     testImplementation(libs.androidx.core.testing)
+
 
 }

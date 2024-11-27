@@ -21,3 +21,4 @@ dependencyResolutionManagement {
 
 rootProject.name = "TodoList"
 include(":app")
+include(":database")
